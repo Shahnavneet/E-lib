@@ -1,0 +1,125 @@
+*
+{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+body
+{
+ background-color: rgb(223, 173, 138);
+}
+.container
+ {
+     width: 50%;
+     height: 500px;
+     background-color: rgb(173, 151, 117);
+     margin: 30px 0 0 310px;
+     padding: 20px; 
+     border-radius: 7px;
+ }
+ .container h2
+ {
+    text-align: center;
+    border-bottom: 1px solid rgb(221, 164, 58);
+ }
+ .col-form
+ {
+    width: 50%;
+    height: 350px;
+    display: table;
+    padding: 40px 2px 0 2px;
+    
+ }
+ .inputs
+  {
+    display: table-row;
+    padding: 10%;
+        
+ }
+ .inputs label 
+ {
+    display: table-cell;
+    padding: 20px 8px 0 8px;
+    
+ }
+ .inputs input 
+ {
+    display: table-cell;
+    padding: 10px 0 0 0;
+    width: 100%;
+    border-color: rgb(221, 170, 136);
+ }
+ .inputs textarea
+ {
+    transform: translateY(50%);
+    border-color: rgb(221, 170, 136);
+ }
+ .col-upload
+ {
+    width: 30%;
+    height: 200px;
+    margin: 5% 0 0 8%;
+    transform: translate(200%,-170%);
+ }
+.col-reg
+{
+    width: 100%;
+    height: 30px;
+    position: relative;
+    margin-top: 60%;
+    text-align: center;   
+}
+.img-area
+{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background: rgb(237, 237, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.select-image
+{
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  border-color: rgb(221, 170, 136);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.select-image:hover
+{
+    background-color: rgb(221, 170, 136);
+}
+.register
+{
+    display: block;
+    width: 30%;
+    height: 40px;
+    border-color: rgb(221, 170, 136);
+    border-radius: 15px;
+    transform: translate(115%,-1400%);
+    cursor: pointer;
+}
+.register:hover
+{
+    background-color: rgb(221, 170, 136);
+}
+.img-area
+{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
